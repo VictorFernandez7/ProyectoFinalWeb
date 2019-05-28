@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Human Horizon</title>
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/style.css">
+  </head>
+  <body>
+    <header id="main__header">
+      <div class="header_text">
+        <h1>Víctor Fernández</h1>
+        <h1>Game Designer</h1>
+      </div>
+      <div class="main_buttons" id="navbar">
+        <nav>
+          <ul class="buttons">
+            <li><div><a title="AboutMe" href="../../index.html">About Me</a></div> </li>
+            <li><div><a title="Portfolio" href="../index.html">Portfolio</a></div> </li>
+          </ul>
+        </nav>
+        <nav>
+          <ul class="rrss">
+            <li class="mail"><a href="mailto:victor.pascual@live.u-tad.com"><img src="../../img/rrss/mail.png" width="65" height="50" title="Mail" alt="Mail"></a></li>
+            <li><a href="https://www.linkedin.com/in/v%C3%ADctor-fern%C3%A1ndez-pascual-35869a119/" target="_blank"><img src="../../img/rrss/linkedIn.png" width="50" height="50" title="LinkedIn" alt="LinkedIn"></a></li>
+            <li><a href="https://www.instagram.com/victorfdez7/" target="_blank"><img src="../../img/rrss/instagram.png" width="50" height="50" title="Instagram" alt="Instagram"></a></li>
+            <li><a href="https://twitter.com/VictorFdez7" target="_blank"><img src="../../img/rrss/twitter.png" width="50" height="50" title="Twitter" alt="Twitter"></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main__content">
+      <div class="project_intro">
+        <img src="../../img/logo.png" alt="Game Logo">
+        <h1>HUMAN HORIZON</h1>
+      </div>
+      <section class="container">
+        <article>
+          <h1>PROJECT DESCRIPTION</h1>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+          <div class="project_description2">
+            <div class="project_stats2">
+              <p>GENRE</p>
+              <p class="rightSide">Exploration</p>
+              <p>LAST UPDATE</p>
+              <p class="rightSide">20/05/2019</p>
+              <p>DURATION</p>
+              <p class="rightSide">30 minutes</p>
+            </div>
+            <div>
+              <div class="downloadButton">
+                <a href="../../build/BuildFinal.rar" download>DOWNLOAD</a>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <div class="title">
+        <h1>GALLERY</h1>
+      </div>
+      <div class="project_screenshots">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/IQ7-YmhLgRw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <a target="_blank" href="../../img/screenshots/screenshot1.png"><img src="../../img/screenshots/screenshot1.png" alt="Screenshot 1"></a>
+        <a target="_blank" href="../../img/screenshots/screenshot1.png"><img src="../../img/screenshots/screenshot2.png" alt="Screenshot 2"></a>
+        <a target="_blank" href="../../img/screenshots/screenshot1.png"><img src="../../img/screenshots/screenshot3.png" alt="Screenshot 3"></a>
+        <a target="_blank" href="../../img/screenshots/screenshot1.png"><img src="../../img/screenshots/screenshot4.png" alt="Screenshot 4"></a>
+        <a target="_blank" href="../../img/screenshots/screenshot1.png"><img src="../../img/screenshots/screenshot5.png" alt="Screenshot 5"></a>
+        <a target="_blank" href="../../img/screenshots/screenshot1.png"><img src="../../img/screenshots/screenshot6.png" alt="Screenshot 6"></a>
+        <a target="_blank" href="../../img/screenshots/screenshot1.png"><img src="../../img/screenshots/screenshot7.png" alt="Screenshot 7"></a>
+      </div>
+    </main>
+    <footer id="main_footer">
+      <div class="footer_button">
+        <nav>
+          <a>Feel free to contact me at victorfernandez95@hotmail.com</a>
+        </nav>
+      </div>
+    </footer>
+    <script>
+      window.onscroll = function() {myFunction()};
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+    </script>
+  </body>
+</html>

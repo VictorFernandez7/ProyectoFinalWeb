@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <header id="main__header">
+      <div class="header_text">
+        <h1>Víctor Fernández</h1>
+        <h1>Game Designer</h1>
+      </div>
+      <div class="main_buttons" id="navbar">
+        <nav>
+          <ul class="buttons">
+            <li><div><a title="AboutMe" href="../index.html">About Me</a></div> </li>
+            <li><div><a class="active" title="Portfolio" href="index.html">Portfolio</a></div> </li>
+          </ul>
+        </nav>
+        <nav>
+          <ul class="rrss">
+            <li class="mail"><a href="mailto:victor.pascual@live.u-tad.com"><img src="../img/rrss/mail.png" width="65" height="50" title="Mail" alt="Mail"></a></li>
+            <li><a href="https://www.linkedin.com/in/v%C3%ADctor-fern%C3%A1ndez-pascual-35869a119/" target="_blank"><img src="../img/rrss/linkedIn.png" width="50" height="50" title="LinkedIn" alt="LinkedIn"></a></li>
+            <li><a href="https://www.instagram.com/victorfdez7/" target="_blank"><img src="../img/rrss/instagram.png" width="50" height="50" title="Instagram" alt="Instagram"></a></li>
+            <li><a href="https://twitter.com/VictorFdez7" target="_blank"><img src="../img/rrss/twitter.png" width="50" height="50" title="Twitter" alt="Twitter"></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main__content">
+      <div class="projects">
+        <ul>
+          <li>
+            <figure>
+              <a class="canClick" href="projects/index.html"><img src="../img/logo.png" title="See More" alt="GameLogo"></a>
+            </figure>
+            <div class="project_description">
+              <h1>HUMAN HORIZON</h1>
+              <div class="project_stats">
+                <p>GENRE</p>
+                <p class="rightSide">Exploration</p>
+                <p>LAST UPDATE</p>
+                <p class="rightSide">20/05/2019</p>
+                <p>DURATION</p>
+                <p class="rightSide">30 minutes</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <figure>
+              <a class="canClick" href="projects/index.html"><img src="../img/logo.png" title="See More" alt="GameLogo"></a>
+            </figure>
+            <div class="project_description">
+              <h1>HUMAN HORIZON</h1>
+              <div class="project_stats">
+                <p>GENRE</p>
+                <p class="rightSide">Exploration</p>
+                <p>LAST UPDATE</p>
+                <p class="rightSide">20/05/2019</p>
+                <p>DURATION</p>
+                <p class="rightSide">30 minutes</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <figure>
+              <a class="canClick" href="projects/index.html"><img src="../img/logo.png" title="See More" alt="GameLogo"></a>
+            </figure>
+            <div class="project_description">
+              <h1>HUMAN HORIZON</h1>
+              <div class="project_stats">
+                <p>GENRE</p>
+                <p class="rightSide">Exploration</p>
+                <p>LAST UPDATE</p>
+                <p class="rightSide">20/05/2019</p>
+                <p>DURATION</p>
+                <p class="rightSide">30 minutes</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <figure>
+              <a class="canClick" href="projects/index.html"><img src="../img/logo.png" title="See More" alt="GameLogo"></a>
+            </figure>
+            <div class="project_description">
+              <h1>HUMAN HORIZON</h1>
+              <div class="project_stats">
+                <p>GENRE</p>
+                <p class="rightSide">Exploration</p>
+                <p>LAST UPDATE</p>
+                <p class="rightSide">20/05/2019</p>
+                <p>DURATION</p>
+                <p class="rightSide">30 minutes</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <figure>
+              <a class="canClick" href="projects/index.html"><img src="../img/logo.png" title="See More" alt="GameLogo"></a>
+            </figure>
+            <div class="project_description">
+              <h1>HUMAN HORIZON</h1>
+              <div class="project_stats">
+                <p>GENRE</p>
+                <p class="rightSide">Exploration</p>
+                <p>LAST UPDATE</p>
+                <p class="rightSide">20/05/2019</p>
+                <p>DURATION</p>
+                <p class="rightSide">30 minutes</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <footer id="main_footer">
+      <div class="footer_button">
+        <nav>
+          <a>Feel free to contact me at victorfernandez95@hotmail.com</a>
+        </nav>
+      </div>
+    </footer>
+    <script>
+      window.onscroll = function() {myFunction()};
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+    </script>
+  </body>
+</html>
